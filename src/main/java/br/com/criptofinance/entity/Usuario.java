@@ -1,4 +1,4 @@
-package br.com.criptofinance.criptofinance.entity;
+package br.com.criptofinance.entity;
 
 import jakarta.persistence.*;
 

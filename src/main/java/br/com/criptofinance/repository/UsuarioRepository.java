@@ -1,4 +1,4 @@
-package br.com.criptofinance.criptofinance.repository;
+package br.com.criptofinance.repository;
 import br.com.criptofinance.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;

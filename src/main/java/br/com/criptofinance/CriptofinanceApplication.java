@@ -1,4 +1,4 @@
-package br.com.criptofinance.criptofinance;
+package br.com.criptofinance;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
