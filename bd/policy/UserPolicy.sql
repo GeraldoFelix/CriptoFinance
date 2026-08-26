@@ -1,5 +1,7 @@
 ALTER TABLE usuario ENABLE ROW LEVEL SECURITY;
 
+GRANT SELECT, update, insert ON usuario TO authenticated;
+
 create policy usuario_select
   on usuario for select
                             to authenticated

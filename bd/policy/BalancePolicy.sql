@@ -1,5 +1,7 @@
 ALTER table saldo ENABLE row level security;
 
+GRANT SELECT ON saldo TO authenticated;
+
 CREATE POLICY saldo_select
   on saldo FOR select
                           TO authenticated

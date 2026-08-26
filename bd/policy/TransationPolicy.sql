@@ -1,5 +1,7 @@
 ALTER TABLE transacao ENABLE ROW LEVEL SECURITY;
 
+GRANT select, insert on transacao to authenticated;
+
 CREATE POLICY transacao_select
     ON transacao FOR SELECT
                                 TO authenticated
