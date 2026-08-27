@@ -11,3 +11,14 @@ WITH CHECK (
       AND carteira.id_usuario = auth.uid()
   )
 )
+
+create policy movimentacao_fiat_select
+on movimentacao_fiat for select
+to authenticated 
+with check (
+  EXIST (
+      SELECT 1 FROM carteira
+      where movimentacao_fiat.id_carteira = carteira.id_carteira
+      AND carteira.id_usuario = auth.uid()
+  )
+)  
