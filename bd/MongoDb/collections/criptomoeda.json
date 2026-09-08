@@ -1,0 +1,12 @@
+[
+{
+  "_id": "bitcoin",
+  "nome": "Bitcoin",
+  "anotacoes": "Primeira criptomoeda, referência de mercado"
+},
+{
+  "_id": "ethereum",
+  "nome": "Ethereum",
+  "anotacoes": "Segunda maior criptomoeda por valor de mercado"
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "_id": {
+    "$oid": "6aa08e347875d3c1f8e6ed2b"
+  },
+  "id_usuario": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "id_carteira": "c1a2r3t4-1111-2222-3333-444455556666",
+  "tipo": "deposito",
+  "valor": 500,
+  "status": "concluido",
+  "metodo": "Pix",
+  "data": "2026-08-22T18:25:00Z"
+},
+{
+  "_id": {
+    "$oid": "6aa08e487875d3c1f8e6ed2d"
+  },
+  "id_usuario": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "id_carteira": "c1a2r3t4-1111-2222-3333-444455556666",
+  "tipo": "saque",
+  "valor": 100,
+  "status": "pendente",
+  "metodo": "Pix",
+  "data": "2026-08-22T22:00:00Z"
+}
+]

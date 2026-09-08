@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "nome": "João Teste",
+    "email": "joao@teste.com",
+    "data_cadastro": "2026-08-22T18:20:00Z",
+    "ativo": true,
+    "carteiras": [
+      {
+        "id_carteira": "c1a2r3t4-...",
+        "nome_carteira": "Carteira Principal",
+        "saldo_fiat": 1000,
+        "saldos_cripto": [
+          {
+            "id_cripto": "bitcoin",
+            "quantidade": 0.005
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": "a1b2c3d4-e5f6-7890-abcd-e4524240",
+    "nome": "Maria Teste",
+    "email": "maria@teste.com",
+    "data_cadastro": "2026-08-24T18:20:00Z",
+    "ativo": true,
+    "carteiras": [
+      {
+        "id_carteira": "c1a2r3t4-5555-2222-3333-444455556666",
+        "nome_carteira": "Carteira Principal",
+        "saldo_fiat": 1000,
+        "saldos_cripto": [
+          {
+            "id_cripto": "bitcoin",
+            "quantidade": 0.005
+          },
+          {
+            "id_cripto": "ethereum",
+            "quantidade": 1.2
+          }
+        ]
+      },
+      {
+        "id_carteira": "c1a2r3t4-7777-8888-9999-000011112222",
+        "nome_carteira": "Carteira Trade",
+        "saldo_fiat": 250,
+        "saldos_cripto": []
+      }
+    ]
+  }
+]
